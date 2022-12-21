@@ -56,7 +56,7 @@ nav a:hover {
 }
 
 .produtos li:active {
-	border-color: #088C19;	
+	border-color: #088C19;
 }
 
 .produtos li:hover h2 {
@@ -99,8 +99,9 @@ form {
 	margin: 40px 0;
 }
 
-form label, form legend {
-	display:block;
+form label,
+form legend {
+	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
 }
@@ -115,7 +116,8 @@ form label, form legend {
 .checkbox {
 	margin: 20px 0;
 }
-.enviar{
+
+.enviar {
 	width: 40%;
 	padding: 15px 0;
 	background: orange;
@@ -125,27 +127,52 @@ form label, form legend {
 	border: none;
 	border-radius: 5px;
 	transition: 1s all;
-	cursor:pointer ;
+	cursor: pointer;
 }
 
-.enviar:hover{
+.enviar:hover {
 	background: darkorange;
 	transform: scale(1.2);
-	
+
 
 }
 
 table {
-    margin: 20px 0 40px;
+	margin: 20px 0 40px;
 }
 
 thead {
-    background: #555555;
-    color: white;
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td,
+th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+/*css da página inicial*/
+.banner {
+	width: 100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+}
+.principal p {
+    margin: 0 0 1em;
+}
+.principal strong {
     font-weight: bold;
 }
 
-td, th {
-    border: 1px solid #000000;
-    padding: 8px 15px;
+.principal em {
+    font-style: italic;
+}
+.imagembeneficios {
+    width: 60%
 }
